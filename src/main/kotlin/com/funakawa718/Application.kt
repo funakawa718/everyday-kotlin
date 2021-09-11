@@ -1,7 +1,7 @@
 package com.funakawa718
 
 import io.ktor.application.*
-import com.funakawa718.plugins.*
+import com.funakawa718.adapter.plugins.*
 
 fun main(args: Array<String>): Unit =
     io.ktor.server.netty.EngineMain.main(args)
